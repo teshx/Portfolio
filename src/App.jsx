@@ -1,14 +1,15 @@
-import { useState } from 'react'
-
+import React from 'react'
+import About from './components/About/About'
+import Navbar from './components/Navbar/Navbar'
+import styles from "./App.module.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      teshx
-    </>
-  )
+    <div className={styles.App}>
+      <Navbar />
+      <About />
+    </div>
+  );
 }
 
 export default App
