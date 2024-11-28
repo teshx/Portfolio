@@ -38,7 +38,11 @@
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
-
+.Loops{
+   font-size: 40px;
+  font-family: var(--font-roboto);
+  margin-bottom: 20px;
+}
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
