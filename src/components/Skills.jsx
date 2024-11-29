@@ -9,6 +9,7 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
+  color: white;
 `;
 
 const Wrapper = styled.div`
@@ -30,11 +31,24 @@ export const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  // color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
   }
+
+  background: linear-gradient(
+    to right top,
+    #370531,
+    #7f1941,
+    #bf453c,
+    #e68526,
+    #ebce12
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+
+  -webkit-background-clip: text;
 `;
 
 export const Desc = styled.div`
@@ -54,14 +68,12 @@ const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
- 
 `;
 
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  //   background: ${({ theme }) => theme.card};
-  background-color: white;
+  background: ${({ theme }) => theme.card};
   border: 0.1px solid #854ce6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
@@ -95,8 +107,8 @@ const SkillList = styled.div`
 const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
+//   color: ${({ theme }) => theme.text_primary + 80};
+  border: 1px solid gray;
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;

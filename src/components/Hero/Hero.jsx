@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils.js";
 import TextLoop from "react-text-loop";
 import Typewriter from "typewriter-effect";
 const Bio = {
-  roles: ["Developer", "Designer", "Creator", "Engineer"],
+  roles: ["a full-stack developer", " UI/UX Designer", "a Creator"],
 };
 
 function Hero() {
@@ -30,8 +30,10 @@ function Hero() {
         </h1>
 
         <p className={styles.description}>
-          I'm a full-stack developer with experience using React and NodeJS.
-          Reach out if you'd like to learn more!
+          I am a motivated and versatile individual, always eager to take on new
+          challenges. With a passion for learning I am dedicated to delivering
+          high-quality results. With a positive attitude and a growth mindset, I
+          am ready to make a meaningful contribution and achieve great things.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Contact Me
