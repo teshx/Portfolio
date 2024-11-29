@@ -12,6 +12,11 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+    background: linear-gradient(to right top, #370531, #7f1941, #bf453c, #e68526, #ebce12);
+  -webkit-background-clip: text; 
+  color: transparent; 
+ 
+  -webkit-background-clip: text;
 }
 
 .projects {
