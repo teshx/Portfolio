@@ -55,7 +55,17 @@
     #e68526,
     #ebce12
   );
-  -webkit-background-clip: text;
+  
+  -webkit-background-clip: text;  /* Clip the background to the text */
+  color: transparent;  /* Make the text transparent so the gradient can be seen */
+}
+
+.Loops span {
+   background: linear-gradient(to left bottom, #d1117e, #ca54aa, #be7cca, #b59ddd, #b7b9e6, #a6c0ec, #95c7ee, #87cdeb, #0ec6d9, #00bdad, #00af6c, #1f9d0b);
+  -webkit-background-clip: text; 
+  color: transparent; 
+ 
+  -webkit-background-clip: text; /* Make the inner span text visible while the gradient is applied */
 }
 .contactBtn {
   text-decoration: none;
@@ -67,10 +77,17 @@
   padding: 17px 26px;
   box-shadow: 0 9px 4px 0 rgba(0, 0, 0, 0.25);
 
-    background: linear-gradient(to right top, #370531, #7f1941, #bf453c, #e68526, #ebce12);
-  -webkit-background-clip: text; 
-  color: transparent; 
- 
+  background: linear-gradient(
+    to right top,
+    #370531,
+    #7f1941,
+    #bf453c,
+    #e68526,
+    #ebce12
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+
   -webkit-background-clip: text;
 }
 

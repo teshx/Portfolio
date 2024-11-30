@@ -14,19 +14,12 @@
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  /* color: var(--color-text);
-   */
+   color: var(--color-text);
+   
 
-  background: linear-gradient(
-    to right top,
-    #370531,
-    #7f1941,
-    #bf453c,
-    #e68526,
-    #ebce12
-  );
+  /* background:  linear-gradient(to left bottom, #d1117e, #b42289, #942d8f, #723590, #4e388b, #6b398e, #85398e, #9d398c, #e34276, #ff6f50, #ffae1f, #e6ee1c); */
   -webkit-background-clip: text;
-  color: transparent;
+  /* color: transparent; */
 
   -webkit-background-clip: text;
 }
@@ -47,7 +40,11 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  background:   linear-gradient(to right top, #d1117e, #b6228b, #982f93, #773795, #533c93, #41499d, #2a55a4, #005fa8, #0077b7, #008a9f, #009666, #1f9d0b);
+  -webkit-background-clip: text;
+  color: transparent;
+
+  -webkit-background-clip: text;
   text-decoration: none;
 }
 
