@@ -1,7 +1,7 @@
 [
   {
     "title": "Project A",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Amazone-clone.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Project B",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/netflix-clone.jpg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
@@ -17,7 +17,8 @@
   },
   {
     "title": "Project C",
-    "imageSrc": "projects/project.png",
+   
+    "imageSrc": "projects/iphone-bootstrap.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
@@ -25,7 +26,7 @@
   },
   {
     "title": "Project C",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/iphone-react.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
@@ -34,7 +35,7 @@
   ,
   {
     "title": "Project C",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Auth.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",

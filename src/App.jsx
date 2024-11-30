@@ -6,13 +6,15 @@ import Hero from "./components/Hero/Hero";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact.jsx";
+import Skills from "./components/Skills.jsx";
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
       <About />
-      <Experience />
+      {/* <Experience /> */}
+      <Skills />
       <Projects />
       <Contact />
     </div>
