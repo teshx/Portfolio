@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils.js";
 import TextLoop from "react-text-loop";
 import Typewriter from "typewriter-effect";
 const Bio = {
-  roles: ["a full-stack developer", " UI/UX Designer", "a Creator"],
+  roles: ["a full-stack dev"],
 };
 
 function Hero() {

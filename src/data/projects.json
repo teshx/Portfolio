@@ -1,53 +1,51 @@
 [
   {
-    "title": "Project A",
+    "title": "Amazone-clone",
     "imageSrc": "projects/Amazone-clone.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "",
+    "skills": ["React", "Express", "Node", "firebase"],
+    "demo": "https://teshx-funny-toffee-d3ea20.netlify.app",
+    "source": "https://github.com/teshx/Amazon-clone/"
   },
   {
-    "title": "Project B",
+    "title": "Netflix-clone",
     "imageSrc": "projects/netflix-clone.jpg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "",
+    "skills": ["React"],
+    "demo": "https://teshx-nstirring-fudge-138dc3.netlify.app",
+    "source": "https://github.com/teshx/Netflix-Clone"
   },
   {
-    "title": "Project C",
-   
+    "title": "iphone-clone",
+
     "imageSrc": "projects/iphone-bootstrap.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["Html", "css", "js", "bootstrap"],
+    "demo": "https://teshx-bootstrap-mermaid-cfb3ca.netlify.app/",
+    "source": "https://www.github.com/teshx"
   },
   {
-    "title": "Project C",
+    "title": "iphone-clone",
     "imageSrc": "projects/iphone-react.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
-  ,
+    "description": "",
+    "skills": ["React", "css"],
+    "demo": "https://github.com/teshx/",
+    "source": "https://teshx-bootstrap-mermaid-cfb3ca.netlify.app/"
+  },
   {
-    "title": "Project C",
+    "title": "Auth",
     "imageSrc": "projects/Auth.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
-  ,
+    "description": "",
+    "skills": ["React", "Express", "Node", "MongoDB"],
+    "demo": "https://github.com/teshx/Auth",
+    "source": "https://github.com/teshx/Auth"
+  },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Liberary management system",
+    "imageSrc": "projects/lms.png",
+    "description": "",
+    "skills": ["html", "mysql", "php", "js"],
+    "demo": "https://github.com/teshx/Learning-PHP/tree/main/New-online-liberary-management-system",
+    "source": "https://github.com/teshx/Learning-PHP/tree/main/New-online-liberary-management-system"
   }
 ]
